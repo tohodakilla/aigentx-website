@@ -86,7 +86,7 @@ if(charts.length) {
 			<h1 class="mb-4 text-3xl font-bold leading-tight text-body-color dark:text-white md:text-[45px]">Meet AIgentX your versatile and comprehensive crypto assistant right on Telegram.</h1>
 			<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">Leveraging advanced technologies like Natural Language Processing and Machine Learning to provide a suite of features including a cryptocurrency-focused AI for handling inquiries, summarizing conversations, and detecting scams. It offers multi-platform compatibility, extending its services to Discord, Facebook, and WhatsApp. Users can customize the bot's personality, response style, and knowledge base, and even upload content in various formats for the bot's learning. The system supports multiple bots across different channels for enhanced community engagement and is capable of fetching real-time project data from multiple sources.</p>
 			<div class="py-3"></div>
-			<button href="#somewhere" class="rounded-full bg-primary py-5 px-16 text-lg font-semibold text-white hover:bg-opacity-90 active:scale-95">TRY IT OUT</button>
+			<button href="#features" class="rounded-full bg-primary py-5 px-16 text-lg font-semibold text-white hover:bg-opacity-90 active:scale-95">TRY IT OUT</button>
 		  </div>
 		</div>
 	  </div>
