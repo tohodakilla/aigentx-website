@@ -32,7 +32,7 @@
 	// })
 </script>
 
-<section class="relative z-10">
+<section id="tokenomics" class="relative z-10">
 	<div class="container">
 		<div class="rounded-lg py-12 px-8 bg-[#14102C] sm:py-16 sm:px-14 lg:px-8 xl:px-14">
 			<h2 class="text-3xl font-bold leading-tight text-white md:text-[45px] text-center lg:mb-9">TOKENOMICS</h2>

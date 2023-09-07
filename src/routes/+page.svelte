@@ -1,14 +1,17 @@
 <script>
-	import { onMount } from 'svelte'
 	import hero from '$lib/images/hero.jpg'
+	import robot from '$lib/images/robot.webp'
 	import Icon from '@iconify/svelte'
 
+	import Menu from '../lib/Menu.svelte'
 	import Roadmap from '../lib/Roadmap.svelte'
 	import RoadmapItem from '../lib/RoadmapItem.svelte'
 	import Tokenomics from '../lib/Tokenomics.svelte'
 	import Testimonials from '../lib/Testimonials.svelte'
 </script>
 
+
+<Menu />
 <!-- <header>
 	<ul>
 		<li class="text-body-color">
@@ -40,7 +43,8 @@
 </header> -->
 
 <div class="hero">
-	<img src={hero} alt="AIgentX">
+	<img class="hro" src={hero} alt="AIgentX">
+	<img class="robot" src={robot} alt="AIgentX robot">
 </div>
 
 <section id="home" class="relative z-10 pt-16 pb-10">
@@ -190,6 +194,9 @@
 
 
 <style>
+	:global(html) {
+		scroll-behavior: smooth;
+	}
 	:global(html,body) {
 		background: #000225;
 		color: #fff;
@@ -214,5 +221,17 @@
 		background: #2D2C4A;
 		height: 1px;
 		margin: 0 auto;
+	}
+	.hro {
+		display: block
+	}
+	.robot {
+		display: none;
+	}
+	@media only screen and (max-width: 767px) {
+		.hro { display: none }
+		.robot {
+			display: block;
+		}
 	}
 </style>
