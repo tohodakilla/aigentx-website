@@ -44,7 +44,7 @@
 					<li class="text-body-color py-3"><a href="#tokenomics">tokenomics</a></li>
 					<li class="text-body-color py-3"><a href="#roadmap">roadmap</a></li>
 					
-					<li class="text-body-color flex items-center"><a href="https://twitter.com"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
+					<li class="text-body-color flex items-center"><a href="https://twitter.com/aigentx0x"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 					<li class="text-body-color flex items-center"><a href="https://telegram.com"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
 					<li class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></li>
 					<li class="text-body-color">
@@ -61,7 +61,7 @@
 						<li class="text-body-color py-3"><a href="#tokenomics">tokenomics</a></li>
 						<li class="text-body-color py-3"><a href="#roadmap">roadmap</a></li>
 						<div class="flex mb-6">
-							<li class="text-body-color flex items-center"><a href="https://twitter.com"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
+							<li class="text-body-color flex items-center"><a href="https://twitter.com/aigentx0x"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 							<li class="text-body-color flex items-center"><a href="https://telegram.com"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
 							<li class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></li>
 
