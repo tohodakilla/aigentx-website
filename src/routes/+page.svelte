@@ -10,37 +10,7 @@
 	import Testimonials from '../lib/Testimonials.svelte'
 </script>
 
-
 <Menu />
-<!-- <header>
-	<ul>
-		<li class="text-body-color">
-			<a href="#home"
-				class="scroll-menu flex py-2 text-lg font-semibold text-primary hover:text-primary dark:text-white dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12"
-			>HOME</a>
-		</li>
-		<li class="text-body-color">
-			<a href="#home"
-				class="scroll-menu flex py-2 text-lg font-semibold text-primary hover:text-primary dark:text-white dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12"
-			>FEATURES</a>
-		</li>
-		<li class="text-body-color">
-			<a href="#home"
-				class="scroll-menu flex py-2 text-lg font-semibold text-primary hover:text-primary dark:text-white dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12"
-			>ROADMAP</a>
-		</li>
-		<li class="text-body-color">
-			<a href="#home"
-				class="scroll-menu flex py-2 text-lg font-semibold text-primary hover:text-primary dark:text-white dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12"
-			>TOKENOMICS</a>
-		</li>
-		<li class="text-body-color">
-			<a href="#home"
-				class="scroll-menu flex py-2 text-lg font-semibold text-primary hover:text-primary dark:text-white dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12"
-			>TELEGRAM</a>
-		</li>
-	</ul>
-</header> -->
 
 <div class="hero">
 	<img class="hro" src={hero} alt="AIgentX">
@@ -201,14 +171,9 @@
 		background: #000225;
 		color: #fff;
 	}
-	/* header ul {
-		display: flex;
-		justify-content: flex-end;
-
-	} */
-	/* header ul li {
-
-	} */
+	.hero {
+		padding-top: 69px;
+	}
 	.hero img {
 		width: 100%;
 		border-bottom: 1px solid #141d6294;
