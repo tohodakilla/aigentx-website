@@ -1,0 +1,25 @@
+2 TIER OPTIONS FOR BOT SETUP
+
+BASIC
+Hold x amount of tokens to use the bot (HOW MANY) it should not be too expensive - this could just be a trial phase, open for ideas of how to implement this
+
+Custom chatbot for your own community comepletely based on your own project
+Custom information integration and reflection
+Do it yourself through telegram
+Web APP coming
+
+Advanced
+Custom chatbot and salesbot
+set up by our own team of experts
+small setup cost and monthly fee to pay for servers and volume of information
+Advanced Q&A Support Features
+Objection Handling
+Sales encouragement
+Lead qualification
+Advanced Analytics
+Fud blocker
+Channel Admin features and detection
+Specific advanced integrations and solutions
+Tailored AI Training
+Dedicated Support
+AI Automation Solutions and community engagement and group chat bots

@@ -1,0 +1,3 @@
+Inital launch features and set up guide
+
+AigentX, the advanced AI Language Learning Machine, empowers Telegram groups with customizable features. It offers instant answers about cryptocurrency projects, real-time portfolio management, and adapts to unique community preferences and engages with the community. Multi-platform compatible, it enhances customer interactions, chat summaries, and detects scams.

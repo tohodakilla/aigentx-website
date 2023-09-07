@@ -1,0 +1,34 @@
+To be completed website:
+
+Rewrite with the following information
+
+Rewritten introduction (Vision_statement)
+
+tokenomics 
+
+Testinomials at bottom - 
+
+Have a buy now button that we will link in the future to the uniswap buy/sell interface
+
+roadmap 
+
+
+
+(Xthereum: Gas-less Infinite Blockchain) dont includde this - like on this website
+https://xthereum.net/
+
+Aigentx: Custom AI chatbot services
+
+SMART CONTRACT :
+0xa696969cFF338395D54acd419bF93D3D705179cf
+
+AND TICKER
+
+AIX 
+
+
+ENS domain 
+
+Aigentx.eth
+
+a button at the bottom for our twitter telegram and medium and github
