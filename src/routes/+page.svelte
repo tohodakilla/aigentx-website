@@ -6,6 +6,7 @@
 	import Roadmap from '../lib/Roadmap.svelte'
 	import RoadmapItem from '../lib/RoadmapItem.svelte'
 	import Tokenomics from '../lib/Tokenomics.svelte'
+	import Testimonials from '../lib/Testimonials.svelte'
 </script>
 
 <!-- <header>
@@ -170,6 +171,7 @@
 			'Develop web-based UI for custom chat bots.',
 			'Enhance website and branding.',
 			'Form strategic partnerships.',
+			'CoinMarketCap + CoinGecko listing',
 			'Implement revenue sharing and advanced models.',
 			'Launch affiliate program for tokenholders.'
 		]}
@@ -183,6 +185,8 @@
 		]}
 	/>
 </Roadmap>
+
+<Testimonials />
 
 
 <style>
