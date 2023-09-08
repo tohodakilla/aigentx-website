@@ -203,9 +203,9 @@
 <section id="footer" class="pt-16 pb-10">
 	<div class="container">
 		<div class="flex mb-6 gap-6 justify-center">
-			<p class="text-body-color flex items-center"><a href="https://twitter.com/aigentx0x"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></p>
+			<p class="text-body-color flex items-center"><a href="https://twitter.com/0xAIgentx"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></p>
 			<p class="text-body-color flex items-center"><a href="https://telegram.com"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></p>
-			<p class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></p>
+			<!-- <p class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></p> -->
 		</div>
 		<p class="text-center text-body-color-2">copyright AIgentX 2023</p>
 	</div>
