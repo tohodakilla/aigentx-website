@@ -3,6 +3,7 @@
 	import robot from '$lib/images/robot.webp'
 	import Icon from '@iconify/svelte'
 
+	import Cards from '../lib/Cards.svelte'
 	import Menu from '../lib/Menu.svelte'
 	import Roadmap from '../lib/Roadmap.svelte'
 	import RoadmapItem from '../lib/RoadmapItem.svelte'
@@ -115,29 +116,68 @@
 	</div>
 </section>
 
-<section id="features">
+<section class="bg-[#14102c] py-20">
 	<div class="mx-auto mb-20">
 		<div class="container">
-			<div class="text-center">
-				<p class="text-2xl mb-6"><span class="font-bold">🤖 Personalized Moderation:</span> AigentX, your chat moderator, maintains respect, responds 24/7.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">📊 Custom Insights:</span> Get tailor-made community insights, manage queries, align with your project's identity.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">🔗 Seamless Integration:</span> Blend AigentX into Discord and Telegram for unified community experiences.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">🛠️ Effortless Customization:</span> Easily adapt AigentX to your community's unique needs.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">👍 User-Friendly </span>Setup: Configure custom agents intuitively, align with community dynamics.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">🤝 Dedicated Support:</span> AigentX adapts to your community's context, portrays your project's identity.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">🧠 AI Excellence:</span> Harness NLP, ML, Automation for adaptable engagement.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">💰 SalesBotAI Integration:</span> Supercharge sales with instant responses, lead qualification.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">📈 Real-Time </span>Data: Stay informed with project data updates.</p>
-				<p class="text-2xl mb-6"><span class="font-bold">🎯 Tailored Solutions:</span> AigentX customizes group chat, community engagement to match goals, identity.</p>
-	
-			</div>
-		
+			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px] text-center">AIgentX transforms group interactions across multiple platforms, serving as a versatile crypto assistant setting a new crypto engagement standard</h2>
+			<Cards feats={[
+				{
+				  emo: '🤖',
+				  head: 'Personalized Moderation',
+				  text: 'AigentX, your chat moderator, maintains respect, responds 24/7.'
+				},
+				{
+				  emo: '📊',
+				  head: 'Custom Insights',
+				  text: "Get tailor-made community insights, manage queries, align with your project's identity."
+				},
+				{
+				  emo: '🔗',
+				  head: 'Seamless Integration',
+				  text: 'Blend AigentX into Discord and Telegram for unified community experiences.'
+				},
+				{
+				  emo: '🛠️',
+				  head: 'Effortless Customization',
+				  text: 'Easily adapt AigentX to your community\'s unique needs.'
+				},
+				{
+				  emo: '👍',
+				  head: 'User-Friendly Setup',
+				  text: 'Configure custom agents intuitively, align with community dynamics.'
+				},
+				{
+				  emo: '🤝',
+				  head: 'Dedicated Support',
+				  text: 'AigentX adapts to your community\'s context, portrays your project\'s identity.'
+				},
+				{
+				  emo: '🧠',
+				  head: 'AI Excellence',
+				  text: 'Harness NLP, ML, Automation for adaptable engagement.'
+				},
+				{
+				  emo: '💰',
+				  head: 'SalesBotAI Integration',
+				  text: 'Supercharge sales with instant responses, lead qualification.'
+				},
+				{
+				  emo: '📈',
+				  head: 'Real-Time Data',
+				  text: 'Stay informed with project data updates.'
+				},
+				{
+				  emo: '🎯',
+				  head: 'Tailored Solutions',
+				  text: 'AigentX customizes group chat, community engagement to match goals, identity.'
+				}
+			  ]
+			  } />
+				
 		</div>
 	
 	</div>
 </section>
-
-<Tokenomics />
 
 <div class="container pt-20 pb-10">
 	<h2 class="text-3xl font-bold leading-tight text-white md:text-[45px] text-center lg:mb-9 mb-3">REVENUE SHARING</h2>
@@ -148,6 +188,7 @@
 	</ul>
 </div>
 
+<Tokenomics />
 
 <div class="spacer"></div>
 
