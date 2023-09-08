@@ -100,7 +100,7 @@
 
 .container .box:nth-child(4):before,
 .container .box:nth-child(4):after {
-  background: linear-gradient(315deg, #00a388b0, #00462b);
+  background: linear-gradient(315deg,#cb50dc,#290028);
 }
 
 .container .box:nth-child(5):before,
@@ -130,7 +130,7 @@
 
 .container .box:nth-child(10):before,
 .container .box:nth-child(10):after {
-  background: linear-gradient(315deg, #006d4cb0, #00cc8f);
+  background: linear-gradient(315deg,#6d0000,#cc3b00)
 }
 
 /* Gradients for the 2 columns layout */
