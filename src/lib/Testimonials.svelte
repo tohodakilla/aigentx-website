@@ -7,7 +7,7 @@
 	<div class="container">
 		<div class="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
 			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">TESTIMONIALS</span>
-			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">What Our Client Say's</h2>
+			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">What Our Client's Say</h2>
 			<!-- <p class="text-lg font-medium text-body-color-2 dark:text-body-color">
 	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
 	  congue arcu, In et dignissim quam condimentum vel.

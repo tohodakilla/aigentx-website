@@ -1,8 +1,8 @@
 <section id="roadmap" class="relative z-10 py-[120px]">
 	<div class="container">
 		<div class="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
-			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl"> ROADMAP </span>
-			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]"> The Timeline </h2>
+			<!-- <span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl"> ROADMAP </span> -->
+			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]"> ROADMAP </h2>
 			<p class="text-lg font-medium text-body-color"><strong>Testnet Launch:</strong> September 8th 2023</p>
 		</div>
 

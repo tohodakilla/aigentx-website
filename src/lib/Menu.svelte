@@ -13,7 +13,7 @@
 		<div class="flex items-center justify-between h-full relative">
 			<img class="logo" src={logo} alt="AIgentX logo">
 
-			{#if w < 768}
+			{#if w < 1024}
 				<button
 					on:click={() => menuOpen = !menuOpen}
 					class="block rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
@@ -43,6 +43,7 @@
 				<ul class="flex gap-6 font-semibold hover:">
 					<li class="text-body-color py-3"><a href="#tokenomics">tokenomics</a></li>
 					<li class="text-body-color py-3"><a href="#roadmap">roadmap</a></li>
+					<li class="text-body-color py-3"><a href="#features">features</a></li>
 					
 					<li class="text-body-color flex items-center"><a href="https://twitter.com/aigentx0x"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 					<li class="text-body-color flex items-center"><a href="https://telegram.com"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
@@ -60,6 +61,7 @@
 					<ul class="w-full">
 						<li class="text-body-color py-3"><a href="#tokenomics">tokenomics</a></li>
 						<li class="text-body-color py-3"><a href="#roadmap">roadmap</a></li>
+						<li class="text-body-color py-3"><a href="#features">features</a></li>
 						<div class="flex mb-6">
 							<li class="text-body-color flex items-center"><a href="https://twitter.com/aigentx0x"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 							<li class="text-body-color flex items-center"><a href="https://telegram.com"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
@@ -97,7 +99,7 @@
 
 	}
 
-	@media only screen and (max-width: 767px) {
+	@media only screen and (max-width: 1023px) {
 		span {
 			transition: all 169ms cubic-bezier(0.23, 1, 0.32, 1);
 		}

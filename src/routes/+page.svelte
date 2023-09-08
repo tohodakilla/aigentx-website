@@ -22,8 +22,8 @@
 	  <div class="-mx-4 flex flex-wrap">
 		<div class="w-full px-4">
 		  <div class="mx-auto max-w-[720px] text-center">
-			<h1 class="mb-4 text-3xl font-bold leading-tight text-body-color dark:text-white md:text-[45px]">Revolutionize Your Telegram Groups with AigentX: Elevate Engagement and Boost Community Growth!</h1>
-			<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">AigentX leverages advanced technologies like Natural Language Processing and Machine Learning to revolutionize the Telegram group experience, providing a suite of features tailored for group chats, crypto project channels, and active community engagement. More than just a chatbot, it serves as your one-stop crypto assistant. AigentX empowers users with instant answers about cryptocurrency projects, real-time portfolio management, and more. It offers multi-platform compatibility, extending services to Discord, Facebook, and WhatsApp. Users can customize the bot's personality, response style, and knowledge base, and even upload content in various formats for the bot's learning. The system supports multiple bots across different channels for enhanced community engagement and is capable of fetching real-time project data from various sources. AigentX sets a new standard for Telegram-based crypto interactions, providing tailored excellence in customer relations, sales, and service.</p>
+			<h1 class="mb-4 text-3xl font-bold leading-tight text-body-color dark:text-white md:text-[45px]">AIgentX: An innovative AI Ecosystem Enabling Improved Engagement and Project Oversight.</h1>
+			<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">AIgentX is a dynamic AI ecosystem that harnesses advanced AI and ML technologies. It utilizes custom business and project data to provide detailed, natural language responses, optimizing interactions, and reducing costs while offering comprehensive AI solutions for businesses and projects across platforms like Telegram and Discord. This ecosystem empowers users to create personalized AI for improved community engagement, accurate project represenation, customer satisfaction and sales growth.</p>
 			<div class="py-3"></div>
 			<button href="#features" class="rounded-full bg-primary py-5 px-16 text-lg font-semibold text-white hover:bg-opacity-90 active:scale-95">TRY IT OUT</button>
 		  </div>
@@ -115,53 +115,101 @@
 	</div>
 </section>
 
+<section id="features">
+	<div class="mx-auto mb-20">
+		<div class="container">
+			<div class="text-center">
+				<p class="text-2xl mb-6"><span class="font-bold">🤖 Personalized Moderation:</span> AigentX, your chat moderator, maintains respect, responds 24/7.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">📊 Custom Insights:</span> Get tailor-made community insights, manage queries, align with your project's identity.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">🔗 Seamless Integration:</span> Blend AigentX into Discord and Telegram for unified community experiences.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">🛠️ Effortless Customization:</span> Easily adapt AigentX to your community's unique needs.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">👍 User-Friendly </span>Setup: Configure custom agents intuitively, align with community dynamics.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">🤝 Dedicated Support:</span> AigentX adapts to your community's context, portrays your project's identity.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">🧠 AI Excellence:</span> Harness NLP, ML, Automation for adaptable engagement.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">💰 SalesBotAI Integration:</span> Supercharge sales with instant responses, lead qualification.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">📈 Real-Time </span>Data: Stay informed with project data updates.</p>
+				<p class="text-2xl mb-6"><span class="font-bold">🎯 Tailored Solutions:</span> AigentX customizes group chat, community engagement to match goals, identity.</p>
+	
+			</div>
+		
+		</div>
+	
+	</div>
+</section>
 
 <Tokenomics />
+
+<div class="container pt-20 pb-10">
+	<h2 class="text-3xl font-bold leading-tight text-white md:text-[45px] text-center lg:mb-9 mb-3">REVENUE SHARING</h2>
+	<ul class="max-w-md	mx-auto">
+		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg>1% of all AIgentX trading volume</li>
+		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg>5% of all AigentX Revenue</li>
+		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg>20% affiliate marketing</li>
+	</ul>
+</div>
+
+
+<div class="spacer"></div>
+
 
 <Roadmap>
 	<RoadmapItem
 		side=left
-		quarter="Q2 2023 Achievements:"
+		quarter="Q2 2023"
 		points={[
-			'Launched initial product, paving the way for development.',
-			'Deployed SalesBotAI, boosting sales and interactions.',
-			'First partnerships'
+			'SalesBotAI launch'
 		]}
+		done={[true]}
 	/>
 	<RoadmapItem
 		side=right
-		quarter="Q3 2023 Achievements:"
+		quarter="Q3 2023"
 		points={[
-			'Launched website showcasing offerings.',
-			'Completed crypto-focused demo bot.',
-			'Initiated key partnerships.',
-			'Deployed custom chat bots for Telegram.'
+			'Launched website showcasing offerings',
+			'Completed crypto-focused demo bot',
+			'Initiated key partnerships',
+			'Deployed custom chat bots for Telegram',
+			'Initial development of AIgentX',
+			'Deploy custom chat bots for telegram'
 		]}
+		done={[true, true, true, true, true, true]}
 	/>
 	<RoadmapItem
 		side=left
-		quarter="Q4 2023 Objectives:"
+		quarter="Q4 2023"
 		points={[
-			'Develop web-based UI for custom chat bots.',
-			'Enhance website and branding.',
-			'Form strategic partnerships.',
+			'Develop web-based UI for custom chat bots',
+			'Enhance website and branding',
+			'Form strategic partnerships',
 			'CoinMarketCap + CoinGecko listing',
-			'Implement revenue sharing and advanced models.',
-			'Launch affiliate program for tokenholders.'
+			'Implement advanced revenue sharing model',
+			'Launch affiliate program for token holders'
 		]}
+		done={[]}
 	/>
 	<RoadmapItem
 		side=right
-		quarter="Q1 2024 Objectives:"
+		quarter="Q1 2024"
 		points={[
-			'Commence integration of advanced chat bot tools such as signal bots.',
-			'Develop a custom chat bot trading suite for enhanced functionality.'
+			'Commence integration of advanced chat bot tools such as signal bots',
+			'Develop a custom chat bot trading suite for enhanced functionality'
 		]}
+		done={[]}
 	/>
 </Roadmap>
 
 <Testimonials />
 
+<section id="footer" class="pt-16 pb-10">
+	<div class="container">
+		<div class="flex mb-6 gap-6 justify-center">
+			<p class="text-body-color flex items-center"><a href="https://twitter.com/aigentx0x"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></p>
+			<p class="text-body-color flex items-center"><a href="https://telegram.com"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></p>
+			<p class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></p>
+		</div>
+		<p class="text-center text-body-color-2">copyright AIgentX 2023</p>
+	</div>
+</section>
 
 <style>
 	:global(html) {

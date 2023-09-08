@@ -2,6 +2,7 @@
 	export let side
 	export let quarter = ''
 	export let points = []
+	export let done
 </script>
 
 {#if side === 'left'}
@@ -12,9 +13,13 @@
 
 			<h3 class="mb-3 text-xl font-bold text-white">{quarter}</h3>
 
-			{#each points as point}
-				<p class="mb-5 text-base font-medium text-body-color">{point}</p>
-			{/each}
+			<ul class="list-none">
+				{#each points as point, i}
+					<li class="mb-3 flex gap-1 text-left text-base font-medium text-body-color">
+						{#if done[i]}<span>✓</span>{/if}{point}
+					</li>
+				{/each}
+			</ul>
 		</div>
 	</div>
 	<div class="w-full px-4 md:w-1/2"></div>
@@ -27,9 +32,13 @@
 
 			<h3 class="mb-3 text-xl font-bold text-white">{quarter}</h3>
 
-			{#each points as point}
-				<p class="mb-5 text-base font-medium text-body-color">{point}</p>
-			{/each}
+			<ul class="list-none">
+				{#each points as point, i}
+					<li class="mb-3 flex gap-1 text-base font-medium text-body-color">
+						{#if done[i]}<span>✓</span>{/if}{point}
+					</li>
+				{/each}
+			</ul>
 		</div>
 	</div>
 {/if}
