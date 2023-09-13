@@ -1,5 +1,5 @@
 <script>
-	import hero from '$lib/images/hero.jpg'
+	import hero from '$lib/images/hero_new.webp'
 	import robot from '$lib/images/robot.webp'
 	import Icon from '@iconify/svelte'
 
