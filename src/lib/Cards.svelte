@@ -8,7 +8,7 @@
 			<!-- <span></span> -->
 			<div class="content text-center">
 				<p class="text-5xl mb-3">{f.emo}</p>
-				<p class="text-3xl font-bold mb-1">{f.head}</p>
+				<p class="text-3xl font-bold mb-3">{f.head}</p>
 				<p class="text-2xl">{f.text}</p>
 			</div>
 		</div>

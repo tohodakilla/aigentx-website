@@ -36,14 +36,11 @@
 	<img src="images/shapes/hero-shape-2.svg" alt="" class="absolute right-0 top-0 -z-10">
   </section>
 
-<div class="spacer"></div>
-
-  <section id="features" class="pt-20 pb-16">
+<!-- <section id="features" class="pt-20 pb-16">
 	<div class="container">
 		<div class="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
 			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">The All-in-One</span>
 			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">Customizable Crypto Assistant for Your Business</h2>
-			<!-- <p class="text-lg font-medium text-body-color"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel. </p> -->
 		</div>
 		<div class="-mx-4 flex flex-wrap">
 			<div class="w-full px-4 md:w-1/2 lg:w-1/3">
@@ -114,9 +111,9 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
-<section class="bg-[#14102c] py-20">
+<section id="features" class="bg-[#14102c] py-20">
 	<div class="mx-auto mb-20">
 		<div class="container">
 			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px] text-center">AIgentX transforms group interactions across multiple platforms, serving as a versatile crypto assistant setting a new crypto engagement standard</h2>
@@ -157,11 +154,6 @@
 				  text: 'Harness NLP, ML, Automation for adaptable engagement.'
 				},
 				{
-				  emo: '💰',
-				  head: 'SalesBotAI Integration',
-				  text: 'Supercharge sales with instant responses, lead qualification.'
-				},
-				{
 				  emo: '📈',
 				  head: 'Real-Time Data',
 				  text: 'Stay informed with project data updates.'
@@ -179,6 +171,30 @@
 	</div>
 </section>
 
+<section class="pt-20 bg-16">
+	<div class="container">
+		<div class="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
+			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">SalesBotAI</span>
+			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">AIgentX Partners with SalesBotAI: A Game-Changing Collaboration</h2>
+		</div>
+
+		<div class="-mx-4 flex flex-wrap">
+			<div class="w-full px-4">
+			  <div class="mx-auto max-w-[720px] text-center">
+				
+				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">In a move to redefine the landscape of customer support and engagement, AIgentX has formed a partnership with SalesbotAI. This collaboration is designed to bring you the best of both worlds – exceptional community management and transformative sales processes.</p>
+				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">SalesbotAI excels in the realm of sales automation. It's designed to supercharge your sales process by providing instant, tailored responses that qualify leads and ensure that no customer queries go unanswered, even in the fast-paced world of crypto.</p>
+				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">By integrating AIgentX with SalesbotAI, you can now reimagine your entire customer journey from the first touchpoint to conversion. Seamlessly handle inquiries, automate inbound engagement, and deliver exceptional, error-free customer support, all while enjoying the advantages of rapid, AI-driven sales processes.</p>
+				<div class="pb-6"></div>
+				
+			  </div>
+			</div>
+		  </div>
+	</div>
+</section>
+
+<div class="spacer"></div>
+
 <div class="container pt-20 pb-10">
 	<h2 class="text-3xl font-bold leading-tight text-white md:text-[45px] text-center lg:mb-9 mb-3">REVENUE SHARING</h2>
 	<ul class="max-w-md	mx-auto">
@@ -189,9 +205,6 @@
 </div>
 
 <Tokenomics />
-
-<div class="spacer"></div>
-
 
 <Roadmap>
 	<RoadmapItem
@@ -233,7 +246,7 @@
 		quarter="Q1 2024"
 		points={[
 			'Commence integration of advanced chat bot tools such as signal bots',
-			'Develop a custom chat bot trading suite for enhanced functionality'
+			'Develop a custom chat bot trading suite'
 		]}
 		done={[]}
 	/>
