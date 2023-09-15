@@ -4,6 +4,7 @@
 	import robot from '$lib/images/robot_powered.webp'
 	import Icon from '@iconify/svelte'
 
+	import Access from '../lib/Access.svelte'
 	import Cards from '../lib/Cards.svelte'
 	import Menu from '../lib/Menu.svelte'
 	import Roadmap from '../lib/Roadmap.svelte'
@@ -29,7 +30,6 @@
 			<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">AIgentX is a dynamic AI ecosystem that harnesses advanced AI and ML technologies. It utilizes custom business and project data to provide detailed, natural language responses, optimizing interactions, and reducing costs while offering comprehensive AI solutions for businesses and projects across platforms like Telegram and Discord. This ecosystem empowers users to create personalized AI for improved community engagement, accurate project represenation, customer satisfaction and sales growth.</p>
 			<div class="py-3"></div>
 			<a href="#success" class="rounded-full bg-primary py-5 px-16 text-lg font-semibold text-white hover:bg-opacity-90 active:scale-95">TRY IT OUT</a>
-
 		  </div>
 		</div>
 	  </div>
@@ -115,6 +115,10 @@
 		  </div>
 	</div>
 </section>
+
+<div class="spacer"></div>
+
+<Access />
 
 <div class="spacer"></div>
 
