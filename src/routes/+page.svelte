@@ -150,7 +150,7 @@
 	<h2 class="text-3xl font-bold leading-tight text-white md:text-[45px] text-center lg:mb-9 mb-3">REVENUE SHARING</h2>
 	<ul class="max-w-md	mx-auto">
 		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg><span>2% of all AIgentX trading volume</span></li>
-		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg><span>5% of all AigentX Revenue</span></li>
+		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg><span>10% of all AigentX Revenue</span></li>
 		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg><span>20% affiliate marketing</span></li>
 	</ul>
 </div>
