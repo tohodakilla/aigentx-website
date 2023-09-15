@@ -1,11 +1,12 @@
 <script>
-	import hero from '$lib/images/hero_new.webp'
-	import robot from '$lib/images/robot.webp'
+	import hero from '$lib/images/hero_powered.webp'
+	import robot from '$lib/images/robot_powered.webp'
 	import Icon from '@iconify/svelte'
 
 	import Cards from '../lib/Cards.svelte'
 	import Menu from '../lib/Menu.svelte'
 	import Roadmap from '../lib/Roadmap.svelte'
+	import Success from '../lib/Success.svelte'
 	import RoadmapItem from '../lib/RoadmapItem.svelte'
 	import Tokenomics from '../lib/Tokenomics.svelte'
 	import Testimonials from '../lib/Testimonials.svelte'
@@ -26,7 +27,8 @@
 			<h1 class="mb-4 text-3xl font-bold leading-tight text-body-color dark:text-white md:text-[45px]">AIgentX: An innovative AI Ecosystem Enabling Improved Engagement and Project Oversight.</h1>
 			<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">AIgentX is a dynamic AI ecosystem that harnesses advanced AI and ML technologies. It utilizes custom business and project data to provide detailed, natural language responses, optimizing interactions, and reducing costs while offering comprehensive AI solutions for businesses and projects across platforms like Telegram and Discord. This ecosystem empowers users to create personalized AI for improved community engagement, accurate project represenation, customer satisfaction and sales growth.</p>
 			<div class="py-3"></div>
-			<button href="#features" class="rounded-full bg-primary py-5 px-16 text-lg font-semibold text-white hover:bg-opacity-90 active:scale-95">TRY IT OUT</button>
+			<a href="#success" class="rounded-full bg-primary py-5 px-16 text-lg font-semibold text-white hover:bg-opacity-90 active:scale-95">TRY IT OUT</a>
+
 		  </div>
 		</div>
 	  </div>
@@ -60,8 +62,8 @@
 						<Icon icon=icon-park-twotone:sales-report style="font-size:42px;color:white;"/>
 					</div>
 					<div>
-						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Integrated with SalesbotAI</h3>
-						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">AigentX joins forces with SalesbotAI, ensuring rapid responses and meaningful engagements that translate to better business results.</p>
+						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Integrated with Integratly AI</h3>
+						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">AigentX joins forces with Integratly AI, ensuring rapid responses and meaningful engagements that translate to better business results.</p>
 					</div>
 				</div>
 			</div>
@@ -173,25 +175,58 @@
 
 <section class="pt-20 bg-16">
 	<div class="container">
-		<div class="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
-			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">SalesBotAI</span>
-			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">AIgentX Partners with SalesBotAI: A Game-Changing Collaboration</h2>
+		<div class="wow fadeInUp mx-auto mb-10 max-w-[590px] text-center md:mb-16" data-wow-delay="0s">
+			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">Integratly AI</span>
+			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">AIgentX Partners with Integratly AI: A Game-Changing Collaboration</h2>
 		</div>
 
 		<div class="-mx-4 flex flex-wrap">
 			<div class="w-full px-4">
 			  <div class="mx-auto max-w-[720px] text-center">
 				
-				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">In a move to redefine the landscape of customer support and engagement, AIgentX has formed a partnership with SalesbotAI. This collaboration is designed to bring you the best of both worlds – exceptional community management and transformative sales processes.</p>
-				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">SalesbotAI excels in the realm of sales automation. It's designed to supercharge your sales process by providing instant, tailored responses that qualify leads and ensure that no customer queries go unanswered, even in the fast-paced world of crypto.</p>
-				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">By integrating AIgentX with SalesbotAI, you can now reimagine your entire customer journey from the first touchpoint to conversion. Seamlessly handle inquiries, automate inbound engagement, and deliver exceptional, error-free customer support, all while enjoying the advantages of rapid, AI-driven sales processes.</p>
+				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">In a move to redefine the landscape of customer support and engagement, AIgentX has formed a partnership with <a class="underline font-medium text-body-color" href="https://www.integratly.ai/">Integratly AI</a>. This collaboration is designed to bring you the best of both worlds - exceptional community management and transformative sales processes.</p>
+				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2"><a class="underline font-medium text-body-color" href="https://www.integratly.ai/">Integratly AI</a> excels in the realm of sales automation. It's designed to supercharge your sales process by providing instant, tailored responses that qualify leads and ensure that no customer queries go unanswered, even in the fast-paced world of crypto.</p>
+				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">By integrating AIgentX with <a class="underline font-medium text-body-color" href="https://www.integratly.ai/">Integratly AI</a>, you can now reimagine your entire customer journey from the first touchpoint to conversion. Seamlessly handle inquiries, automate inbound engagement, and deliver exceptional, error-free customer support, all while enjoying the advantages of rapid, AI-driven sales processes.</p>
+
+				<button ></button>
+
 				<div class="pb-6"></div>
 				
+
+
 			  </div>
 			</div>
 		  </div>
 	</div>
 </section>
+
+<div class="spacer"></div>
+
+<Success items={[{
+	head: 'Baby BNB Tiger Bot on Telegram',
+	text: 'We partnered with Integratly AI to create a specialized Telegram bot for the Baby BNB Tiger project. The results speak for themselves: heightened community engagement and a boost in token promotion.',
+	link: 'http://t.me/Baby_BNB_Tiger_bot',
+	button: 'Experience Baby BNB Tiger Bot',
+	img: 'tiger'
+},{
+	head: 'Airdrop Hunter',
+	text: `Integratly AI's platform transformed the cryptocurrency airdrop experience. With an intuitive interface and streamlined processes, we witnessed an exponential increase in user participation and engagement.`,
+	link: 'https://airdrop-hunter.site/',
+	button: 'Explore Airdrop Hunter Platform',
+	img: 'airdrop'
+},{
+	head: 'Welcome To Bali Bot on Telegram',
+	text: `Demonstrating the versatility of Integratly AI's solutions, we ventured beyond the crypto realm. The Welcome To Bali Bot on Telegram offers invaluable tourism-related information and services, expanding our reach to new horizons.`,
+	link: 'https://t.me/WelcomeToBali_bot',
+	button: 'Discover Welcome To Bali Bot',
+	img: 'bali'
+},{
+	head: 'Narfex AI Bot on Telegram',
+	text: 'Our partnership with Integratly AI brought advanced community management and user engagement to the forefront. Thanks to cutting-edge AI technology, we experienced unparalleled growth and efficiency in our community interactions.',
+	link: 'https://t.me/NarfexAI_bot',
+	button: 'Engage with Narfex AI Bot',
+	img: 'narfex'
+}]}/>
 
 <div class="spacer"></div>
 
@@ -211,7 +246,7 @@
 		side=left
 		quarter="Q2 2023"
 		points={[
-			'SalesBotAI launch'
+			'Integratly AI launch'
 		]}
 		done={[true]}
 	/>

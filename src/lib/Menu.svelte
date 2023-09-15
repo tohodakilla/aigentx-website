@@ -16,7 +16,7 @@
 			{#if w < 1024}
 				<button
 					on:click={() => menuOpen = !menuOpen}
-					class="block rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+					class="block rounded-lg px-3 py-[6px] ring-primary focus:ring-2 xl:hidden"
 					class:menuOpen
 
 				>
@@ -44,6 +44,7 @@
 					<li class="text-body-color py-3"><a href="#tokenomics">tokenomics</a></li>
 					<li class="text-body-color py-3"><a href="#roadmap">roadmap</a></li>
 					<li class="text-body-color py-3"><a href="#features">features</a></li>
+					<li class="text-body-color py-3"><a target="_blank" href="https://aigentx.gitbook.io/whitepaper/">whitepaper</a></li>
 					
 					<li class="text-body-color flex items-center"><a href="https://twitter.com/0xAIgentx"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 					<li class="text-body-color flex items-center"><a href="https://t.me/+hWMgnOdPhG40Nzhl"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
@@ -62,6 +63,7 @@
 						<li class="text-body-color py-3"><a href="#tokenomics">tokenomics</a></li>
 						<li class="text-body-color py-3"><a href="#roadmap">roadmap</a></li>
 						<li class="text-body-color py-3"><a href="#features">features</a></li>
+						<li class="text-body-color py-3"><a target="_blank" href="https://aigentx.gitbook.io/whitepaper/">whitepaper</a></li>
 						<div class="flex mb-6">
 							<li class="text-body-color flex items-center"><a href="https://twitter.com/0xAIgentx"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 							<li class="text-body-color flex items-center"><a href="https://t.me/+hWMgnOdPhG40Nzhl"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
