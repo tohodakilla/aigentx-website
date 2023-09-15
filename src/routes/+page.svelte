@@ -93,7 +93,6 @@
 			  } />
 				
 		</div>
-	
 	</div>
 </section>
 
@@ -108,16 +107,9 @@
 			<div class="w-full px-4">
 			  <div class="mx-auto max-w-[720px] text-center">
 				
-				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">In a move to redefine the landscape of customer support and engagement, AIgentX has formed a partnership with <a class="underline font-medium text-body-color" href="https://www.integratly.ai/">Integratly AI</a>. This collaboration is designed to bring you the best of both worlds - exceptional community management and transformative sales processes.</p>
-				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2"><a class="underline font-medium text-body-color" href="https://www.integratly.ai/">Integratly AI</a> excels in the realm of sales automation. It's designed to supercharge your sales process by providing instant, tailored responses that qualify leads and ensure that no customer queries go unanswered, even in the fast-paced world of crypto.</p>
-				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">By integrating AIgentX with <a class="underline font-medium text-body-color" href="https://www.integratly.ai/">Integratly AI</a>, you can now reimagine your entire customer journey from the first touchpoint to conversion. Seamlessly handle inquiries, automate inbound engagement, and deliver exceptional, error-free customer support, all while enjoying the advantages of rapid, AI-driven sales processes.</p>
-
-				<button ></button>
+				<p class="mx-auto mb-4 max-w-[620px] text-lg font-medium text-body-color-2">We're thrilled to announce our technical partnership with <a href="https://integratly.ai/" target="_blank">IntegratlyAI</a>, a leading authority in the custom AI solutions space. <a href="https://integratly.ai/" target="_blank">IntegratlyAI</a> boasts over a decade of expertise in AI and IT, offering specialized services designed for seamless business integration. They stand out for their commitment to high ROI and 100% guaranteed successful integration, making AI adoption easier and more efficient for businesses of all sizes. This collaboration aims to amplify both companies' strengths, combining AIgentX's focus on community engagement and project oversight with IntegratlyAI's proven, ROI-driven AI solutions.</p>
 
 				<div class="pb-6"></div>
-				
-
-
 			  </div>
 			</div>
 		  </div>
@@ -157,9 +149,9 @@
 <div class="container pt-20 pb-10">
 	<h2 class="text-3xl font-bold leading-tight text-white md:text-[45px] text-center lg:mb-9 mb-3">REVENUE SHARING</h2>
 	<ul class="max-w-md	mx-auto">
-		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg>1% of all AIgentX trading volume</li>
-		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg>5% of all AigentX Revenue</li>
-		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg>20% affiliate marketing</li>
+		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg><span>2% of all AIgentX trading volume</span></li>
+		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg><span>5% of all AigentX Revenue</span></li>
+		<li class="flex items-center justify-center gap-3 text-2xl mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 12 12"><path fill="#8ba6ff" d="M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03Z"/></svg><span>20% affiliate marketing</span></li>
 	</ul>
 </div>
 
