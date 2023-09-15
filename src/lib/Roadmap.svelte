@@ -12,7 +12,7 @@
 
 		<div class="-mx-4 flex justify-center" >
 			<div class="w-full px-4 lg:w-10/12 xl:w-9/12">
-				<div class="relative -mx-4 flex flex-wrap md:py-14 lg:py-20" use:reveal={{ delay: 10 }}>
+				<div class="relative -mx-4 flex flex-wrap md:py-14 lg:py-20">
 					<span class="absolute top-0 left-2 hidden h-full w-[2px] bg-[#2D2C4A] md:left-1/2 md:block"></span>
 					
 					<slot />

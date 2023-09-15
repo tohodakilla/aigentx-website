@@ -21,7 +21,7 @@
 			<div class="-mx-4 flex flex-wrap justify-center">
 				<div class="w-full px-4 lg:w-9/12 xl:w-8/12">
 					{#each items as { head, text, link, button, img }, index}
-						<a target="_blank" href="{link}" class="relative block single-faq mb-10 rounded-lg lg:py-6 lg:px-7 bg-dark md:py-8 md:px-10" use:reveal={{ delay: index * 10 }}>
+						<a target="_blank" href="{link}" class="relative block single-faq mb-10 rounded-lg lg:py-6 lg:px-7 bg-dark md:py-8 md:px-10" use:reveal={{ delay: 10 }}>
 							<img src={map[img]} alt="{button}" class="aspect-square object-cover lg:absolute top-0 right-0 bottom-0 w-full lg:w-1/5 max-h-[200px] rounded-t-lg lg:rounded-tl-none lg:rounded-tr-lg">
 
 							<div class="w-full lg:w-4/5 py-6 px-7 lg:p-0">

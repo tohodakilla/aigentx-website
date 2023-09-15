@@ -6,7 +6,7 @@
 
 <div class="wrapper">
 	{#each feats as f, index}
-		<div class="box" use:reveal={{ delay: index * 10 }}>
+		<div class="box" use:reveal={{ delay: 10 }}>
 			<!-- <span></span> -->
 			<div class="content text-center">
 				<p class="text-5xl mb-3">{f.emo}</p>
