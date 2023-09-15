@@ -1,10 +1,12 @@
 <script>
+	import { reveal } from 'svelte-reveal'
+	
 	export let feats = []
 </script>
 
-<div class="container">
-	{#each feats as f}
-		<div class="box">
+<div class="wrapper">
+	{#each feats as f, index}
+		<div class="box" use:reveal={{ delay: index * 10 }}>
 			<!-- <span></span> -->
 			<div class="content text-center">
 				<p class="text-5xl mb-3">{f.emo}</p>
@@ -20,15 +22,15 @@
 		position: relative;
 		z-index: 100;
 	}
-.container {
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 40px 0;
+  gap: 1.618rem;
 }
 
-.container .box
+.wrapper .box
 {
   position: relative;
   width: 320px;
@@ -36,11 +38,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 30px;
+  /* margin: 40px 30px; */
   transition: 0.5s;
 }
 
-.container .box::before
+.wrapper .box::before
 {
   content:' ';
   position: absolute;
@@ -55,7 +57,7 @@
   transition: 0.5s;
 }
 
-.container .box::after
+.wrapper .box::after
 {
   content:'';
   position: absolute;
@@ -70,66 +72,66 @@
   filter: blur(30px);
 }
 
-.container .box:hover:before,
-.container .box:hover:after
+.wrapper .box:hover:before,
+.wrapper .box:hover:after
 {
   transform: skewX(0deg);
   left: 42px;
   width: calc(100% - 90px);
   
 }
-/* .container .box:before,
-.container .box:after {
+/* .wrapper .box:before,
+.wrapper .box:after {
   background: linear-gradient(315deg, #3e7dffb0, #1d227d);
 } */
 /* Gradients for the 1 column layout */
-.container .box:nth-child(1):before,
-.container .box:nth-child(1):after {
+.wrapper .box:nth-child(1):before,
+.wrapper .box:nth-child(1):after {
   background: linear-gradient(315deg, #3e7dffb0, #1d227d);
 }
 
-.container .box:nth-child(2):before,
-.container .box:nth-child(2):after {
+.wrapper .box:nth-child(2):before,
+.wrapper .box:nth-child(2):after {
   background: linear-gradient(315deg, #7fcce4b0, #4583ad);
 }
 
-.container .box:nth-child(3):before,
-.container .box:nth-child(3):after {
+.wrapper .box:nth-child(3):before,
+.wrapper .box:nth-child(3):after {
   background: linear-gradient(315deg, #ffcb64b0, #ad8e49);
 }
 
-.container .box:nth-child(4):before,
-.container .box:nth-child(4):after {
+.wrapper .box:nth-child(4):before,
+.wrapper .box:nth-child(4):after {
   background: linear-gradient(315deg,#cb50dc,#290028);
 }
 
-.container .box:nth-child(5):before,
-.container .box:nth-child(5):after {
+.wrapper .box:nth-child(5):before,
+.wrapper .box:nth-child(5):after {
   background: linear-gradient(315deg, #00cc8fb0, #006d4c);
 }
 
-.container .box:nth-child(6):before,
-.container .box:nth-child(6):after {
+.wrapper .box:nth-child(6):before,
+.wrapper .box:nth-child(6):after {
   background: linear-gradient(315deg, #ff3d00b0, #9f2000);
 }
 
-.container .box:nth-child(7):before,
-.container .box:nth-child(7):after {
+.wrapper .box:nth-child(7):before,
+.wrapper .box:nth-child(7):after {
   background: linear-gradient(315deg, #ffbb00b0, #ad8e49);
 }
 
-.container .box:nth-child(8):before,
-.container .box:nth-child(8):after {
+.wrapper .box:nth-child(8):before,
+.wrapper .box:nth-child(8):after {
   background: linear-gradient(315deg, #5a00a0b0, #2b004d);
 }
 
-.container .box:nth-child(9):before,
-.container .box:nth-child(9):after {
+.wrapper .box:nth-child(9):before,
+.wrapper .box:nth-child(9):after {
   background: linear-gradient(315deg, #1d227db0, #3e7dff);
 }
 
-.container .box:nth-child(10):before,
-.container .box:nth-child(10):after {
+.wrapper .box:nth-child(10):before,
+.wrapper .box:nth-child(10):after {
   background: linear-gradient(315deg,#6d0000,#cc3b00)
 }
 
@@ -141,7 +143,7 @@
 
 
 
-.container .box span
+.wrapper .box span
 {
   display: block;
   position: absolute;
@@ -153,7 +155,7 @@
   pointer-events: none;
 }
 
-.container .box span::before
+.wrapper .box span::before
 {
   content:'';
   position: absolute;
@@ -170,7 +172,7 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.08)
 }
 
-.container .box:hover span::before
+.wrapper .box:hover span::before
 {
   top: -50px;
   left: 50px;
@@ -179,7 +181,7 @@
   opacity: 1;
 }
 
-.container .box span::after
+.wrapper .box span::after
 {
   content:'';
   position: absolute;
@@ -197,7 +199,7 @@
   animation-delay: -1s;
 }
 
-.container .box:hover span:after
+.wrapper .box:hover span:after
 {
   bottom: -50px;
   right: 50px;
@@ -219,7 +221,7 @@
   }
 }
 
-.container .box .content
+.wrapper .box .content
 {
   position: relative;
   left: 0;

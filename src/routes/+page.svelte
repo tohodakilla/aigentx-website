@@ -1,4 +1,5 @@
 <script>
+	import { reveal } from 'svelte-reveal'
 	import hero from '$lib/images/hero_powered.webp'
 	import robot from '$lib/images/robot_powered.webp'
 	import Icon from '@iconify/svelte'
@@ -20,7 +21,7 @@
 </div>
 
 <section id="home" class="relative z-10 pt-16 pb-10">
-	<div class="container">
+	<div class="container" use:reveal={{ delay: 0 }}>
 	  <div class="-mx-4 flex flex-wrap">
 		<div class="w-full px-4">
 		  <div class="mx-auto max-w-[720px] text-center">
@@ -36,84 +37,7 @@
 	<div class="absolute top-0 left-0 -z-10 h-full w-full opacity-20" style="background-image: linear-gradient(rgb(62, 125, 255) 0%, rgba(62, 125, 255, 0) 100%)"></div>
 	<!-- <img src="images/shapes/hero-shape-1.svg" alt="" class="absolute left-0 top-0 -z-10"> -->
 	<img src="images/shapes/hero-shape-2.svg" alt="" class="absolute right-0 top-0 -z-10">
-  </section>
-
-<!-- <section id="features" class="pt-20 pb-16">
-	<div class="container">
-		<div class="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
-			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">The All-in-One</span>
-			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">Customizable Crypto Assistant for Your Business</h2>
-		</div>
-		<div class="-mx-4 flex flex-wrap">
-			<div class="w-full px-4 md:w-1/2 lg:w-1/3">
-				<div class="wow fadeInUp mx-auto mb-14 max-w-[370px] text-center" data-wow-delay="0s">
-					<div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-primary text-white">
-						<Icon icon=material-symbols:inbox-customize-rounded style="font-size:42px;color:white;"/>
-					</div>
-					<div>
-						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Customization Like Never Before</h3>
-						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">Tailor the chatbot to your specific project's needs. Choose from custom data sources including YouTube, PDFs, web pages, voice notes, and chat logs for a truly personalized experience.</p>
-					</div>
-				</div>
-			</div>
-			<div class="w-full px-4 md:w-1/2 lg:w-1/3">
-				<div class="wow fadeInUp mx-auto mb-14 max-w-[370px] text-center" data-wow-delay="0s">
-					<div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-primary text-white">
-						<Icon icon=icon-park-twotone:sales-report style="font-size:42px;color:white;"/>
-					</div>
-					<div>
-						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Integrated with Integratly AI</h3>
-						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">AigentX joins forces with Integratly AI, ensuring rapid responses and meaningful engagements that translate to better business results.</p>
-					</div>
-				</div>
-			</div>
-			<div class="w-full px-4 md:w-1/2 lg:w-1/3">
-				<div class="wow fadeInUp mx-auto mb-14 max-w-[370px] text-center" data-wow-delay="0s">
-					<div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-primary text-white">
-						<Icon icon=streamline:interface-security-shield-3-shield-pay-product-secure-money-cash-currency-security-business style="font-size:42px;color:white;"/>
-					</div>
-					<div>
-						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Smart Business Integration</h3>
-						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">Use your existing business data like documents, presentations, and websites to enable AigentX to fully understand your services and style.</p>
-					</div>
-				</div>
-			</div>
-			<div class="w-full px-4 md:w-1/2 lg:w-1/3">
-				<div class="wow fadeInUp mx-auto mb-14 max-w-[370px] text-center" data-wow-delay="0s">
-					<div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-primary text-white">
-						<Icon icon=material-symbols:compare-arrows-rounded style="font-size:42px;color:white;"/>
-					</div>
-					<div>
-						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Wide Platform Compatibility</h3>
-						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg"> Integrate seamlessly with Instagram, Facebook, Telegram, WhatsApp, Amo CRM, and more. Custom integrations also available upon request.</p>
-					</div>
-				</div>
-			</div>
-			<div class="w-full px-4 md:w-1/2 lg:w-1/3">
-				<div class="wow fadeInUp mx-auto mb-14 max-w-[370px] text-center" data-wow-delay="0s">
-					<div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-primary text-white">
-						<Icon icon=ion:language style="font-size:42px;color:white;"/>
-					</div>
-					<div>
-						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Speak Their Language</h3>
-						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">Communicate effortlessly in over 100 languages to cater to a global customer base.</p>
-					</div>
-				</div>
-			</div>
-			<div class="w-full px-4 md:w-1/2 lg:w-1/3">
-				<div class="wow fadeInUp mx-auto mb-14 max-w-[370px] text-center" data-wow-delay="0s">
-					<div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-primary text-white">
-						<Icon icon=streamline:money-cash-search-dollar-search-pay-product-currency-query-magnifying-cash-business-money-glass style="font-size:42px;color:white;"/>
-					</div>
-					<div>
-						<h3 class="mb-3 text-xl font-bold text-white sm:text-3xl lg:text-xl xl:text-3xl">Cost-Efficient and Scalable</h3>
-						<p class="text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">  Ideal for businesses of any size, AigentX services thousands of customers simultaneously, helping you save on personnel costs.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
+</section>
 
 <section id="features" class="bg-[#14102c] py-20">
 	<div class="mx-auto mb-20">
@@ -175,12 +99,12 @@
 
 <section class="pt-20 bg-16">
 	<div class="container">
-		<div class="wow fadeInUp mx-auto mb-10 max-w-[590px] text-center md:mb-16" data-wow-delay="0s">
+		<div class="mx-auto mb-10 max-w-[590px] text-center md:mb-16" use:reveal={{ delay: 0 }}>
 			<span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">Integratly AI</span>
 			<h2 class="mb-3 text-3xl font-bold leading-tight text-white md:text-[45px]">AIgentX Partners with Integratly AI: A Game-Changing Collaboration</h2>
 		</div>
 
-		<div class="-mx-4 flex flex-wrap">
+		<div class="-mx-4 flex flex-wrap" use:reveal={{ delay: 10 }}>
 			<div class="w-full px-4">
 			  <div class="mx-auto max-w-[720px] text-center">
 				
@@ -292,8 +216,10 @@
 <section id="footer" class="pt-16 pb-10">
 	<div class="container">
 		<div class="flex mb-6 gap-6 justify-center">
-			<p class="text-body-color flex items-center"><a href="https://twitter.com/0xAIgentx"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></p>
-			<p class="text-body-color flex items-center"><a href="https://telegram.com"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></p>
+			<p class="text-body-color flex items-center"><a target="_blank" href="https://twitter.com/0xAIgentx"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></p>
+ 			<p class="text-body-color flex items-center"><a target="_blank" href="https://t.me/+hWMgnOdPhG40Nzhl"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></p>
+			<p class="text-body-color flex items-center"><a target="_blank" href="https://aigentx.gitbook.io/whitepaper/"><Icon icon=material-symbols:lab-profile-rounded style="font-size:32px" /></a></p>
+			
 			<!-- <p class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></p> -->
 		</div>
 		<p class="text-center text-body-color-2">copyright AIgentX 2023</p>

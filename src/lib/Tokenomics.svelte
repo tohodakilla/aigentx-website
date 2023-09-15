@@ -1,4 +1,5 @@
 <script>
+	import { reveal } from 'svelte-reveal'
 	import { onMount } from 'svelte'
 
 	let ApexCharts
@@ -61,7 +62,7 @@
 				</div>
 
 				<div class="w-full px-4 lg:w-1/2">
-					<div class="wow fadeInUp mb-12 flex items-center justify-center lg:mb-0" data-wow-delay="0s">
+					<div class="mb-12 flex items-center justify-center lg:mb-0" use:reveal={{ delay: 0 }}>
 						<div id="chart"></div>
 					</div>
 				</div>

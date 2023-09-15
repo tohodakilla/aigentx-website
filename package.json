@@ -16,11 +16,13 @@
     "postcss": "^8.4.24",
     "postcss-load-config": "^4.0.1",
     "svelte": "^4.0.5",
+    "svelte-reveal": "^0.7.0",
     "tailwindcss": "^3.3.2",
     "vite": "^4.4.2"
   },
   "type": "module",
   "dependencies": {
-    "apexcharts": "^3.42.0"
+    "apexcharts": "^3.42.0",
+    "wowjs": "^1.1.3"
   }
 }
