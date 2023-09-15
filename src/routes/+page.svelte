@@ -130,13 +130,15 @@
 	link: 'https://airdrop-hunter.site/',
 	button: 'Explore Airdrop Hunter Platform',
 	img: 'airdrop'
-},{
-	head: 'Welcome To Bali Bot on Telegram',
-	text: `Demonstrating the versatility of Integratly AI's solutions, we ventured beyond the crypto realm. The Welcome To Bali Bot on Telegram offers invaluable tourism-related information and services, expanding our reach to new horizons.`,
-	link: 'https://t.me/WelcomeToBali_bot',
-	button: 'Discover Welcome To Bali Bot',
-	img: 'bali'
-},{
+},
+// {
+// 	head: 'Welcome To Bali Bot on Telegram',
+// 	text: `Demonstrating the versatility of Integratly AI's solutions, we ventured beyond the crypto realm. The Welcome To Bali Bot on Telegram offers invaluable tourism-related information and services, expanding our reach to new horizons.`,
+// 	link: 'https://t.me/WelcomeToBali_bot',
+// 	button: 'Discover Welcome To Bali Bot',
+// 	img: 'bali'
+// },
+{
 	head: 'Narfex AI Bot on Telegram',
 	text: 'Our partnership with Integratly AI brought advanced community management and user engagement to the forefront. Thanks to cutting-edge AI technology, we experienced unparalleled growth and efficiency in our community interactions.',
 	link: 'https://t.me/NarfexAI_bot',

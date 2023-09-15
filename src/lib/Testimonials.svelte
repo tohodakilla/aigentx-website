@@ -15,7 +15,7 @@
 		</div>
 
 		<div class="-mx-4 flex flex-wrap">
-			<div class="w-full px-4 md:w-1/2">
+			<!-- <div class="w-full px-4 md:w-1/2">
 				<div class="wow fadeInUp relative z-10 mb-10 overflow-hidden rounded-[10px] px-6 py-8 bg-[#131B4D] sm:p-10 md:p-8 xl:p-10" data-wow-delay="0s">
 					<div class="absolute right-0 top-0 z-[-1]">
 						<img src="images/shapes/testimonial-shape.svg" alt="shape" />
@@ -35,7 +35,7 @@
 						</div>
 					</div>	
 				</div>
-			</div>
+			</div> -->
 
 			<div class="w-full px-4 md:w-1/2">
 				<div class="wow fadeInUp relative z-10 mb-10 overflow-hidden rounded-[10px] px-6 py-8 bg-[#131B4D] sm:p-10 md:p-8 xl:p-10" data-wow-delay="0s">
