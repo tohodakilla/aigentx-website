@@ -66,7 +66,11 @@
 						<div id="chart"></div>
 					</div>
 				</div>
-				<div class="w-full mt-6">
+				<div class="text-center w-full mt-6">
+					<p class="text-center text-xl mb-3 w-full"><span class="font-bold">token address:</span>0x3fdfd866fa9e1ab4b6f6762cbdce0bf787583dc3</p>
+					<p class="text-center text-xl mb-3 w-full"><a class="font-bold underline" href="https://dexscreener.com/ethereum/0x3fdfd866fa9e1ab4b6f6762cbdce0bf787583dc3" target="_blank">dexscreener</a></p>
+				</div>
+				<div class="w-full mx-6">
 					<p class="text-center text-xl mb-3 w-full">🚫 (No team tokens, No presale/private sale, 100% Pooled)</p>
 					<p class="text-center text-xl">🔢 5% Buy and Sell taxes (📣 Marketing, 🤝 Partnership, 💻 Development, and 💵 Revenue Sharing)</p>
 

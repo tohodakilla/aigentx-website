@@ -57,13 +57,14 @@
 					<li class="text-body-color flex items-center"><a target="_blank" href="https://t.me/+hWMgnOdPhG40Nzhl"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
 					<!-- <li class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></li> -->
 					<li class="text-body-color">
-						<button
-						on:click={openModal}
-							class="rounded-full bg-primary text-lg text-white uppercase px-6 py-3 hover:bg-opacity-90 active:scale-95"
+						<a
+							target="_blank"
+							href="https://app.uniswap.org/swap?outputCurrency=0x40e9187078032afe1a30cfcf76e4fe3d7ab5c6c5&chain=ethereum"
+							class="block align-center rounded-full bg-primary text-lg text-white uppercase px-6 py-3 hover:bg-opacity-90 active:scale-95"
 						>
 							<span>buy now</span>
 							<!-- <a href="https://uniswap.org">buy now</a> -->
-						</button>
+						</a>
 					</li>
 				</ul>
 			{/if}
