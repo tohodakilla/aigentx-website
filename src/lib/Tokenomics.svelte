@@ -67,7 +67,7 @@
 					</div>
 				</div>
 				<div class="text-center w-full mt-6">
-					<p class="text-center text-xl mb-3 w-full"><span class="font-bold">token address:</span>0x40e9187078032afe1a30cfcf76e4fe3d7ab5c6c5</p>
+					<p class="text-center text-xl mb-3 w-full" style="word-wrap: break-word;"><span class="font-bold">token address:</span> 0x40e9187078032afe1a30cfcf76e4fe3d7ab5c6c5</p>
 					<p class="text-center text-xl mb-3 w-full"><a class="font-bold underline" href="https://dexscreener.com/ethereum/0x3fdfd866fa9e1ab4b6f6762cbdce0bf787583dc3" target="_blank">dexscreener</a></p>
 				</div>
 				<div class="w-full mx-6">
