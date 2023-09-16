@@ -56,6 +56,7 @@
 					<li class="text-body-color flex items-center"><a target="_blank" href="https://twitter.com/0xAIgentx"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 					<li class="text-body-color flex items-center"><a target="_blank" href="https://t.me/+hWMgnOdPhG40Nzhl"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
 					<!-- <li class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></li> -->
+					<li class="text-body-color flex items-center"><a target="_blank" href="mailto:0xaigentx@gmail.com"><Icon icon=material-symbols:alternate-email-rounded style="font-size:32px" /></a></li>
 					<li class="text-body-color">
 						<a
 							target="_blank"
@@ -79,6 +80,7 @@
 						<div class="flex mb-6">
 							<li class="text-body-color flex items-center"><a target="_blank" href="https://twitter.com/0xAIgentx"><Icon icon=line-md:twitter-x-alt style="font-size:32px" /></a></li>
 							<li class="text-body-color flex items-center"><a target="_blank" href="https://t.me/+hWMgnOdPhG40Nzhl"><Icon icon=ph:telegram-logo-duotone style="font-size:32px" /></a></li>
+							<li class="text-body-color flex items-center"><a target="_blank" href="mailto:0xaigentx@gmail.com"><Icon icon=material-symbols:alternate-email-rounded style="font-size:32px" /></a></li>
 							<!-- <li class="text-body-color flex items-center"><a href="https://medium.com"><Icon icon=mdi:medium style="font-size:32px" /></a></li> -->
 
 						</div>
