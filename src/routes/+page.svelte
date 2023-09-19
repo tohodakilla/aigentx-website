@@ -1,6 +1,6 @@
 <script>
 	import { reveal } from 'svelte-reveal'
-	import hero from '$lib/images/hero_powered.webp'
+	import hero from '$lib/images/Banner_Fix.webp'
 	import robot from '$lib/images/robot_powered.webp'
 	import Icon from '@iconify/svelte'
 
